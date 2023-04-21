@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 h1{
@@ -15,4 +16,58 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-bannar{
+    background-image: url("images/first.png");
+    background-repeat: no-repeat;
+
+   
+   
+}
+section{
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    background-color: tomato;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.dream{
+    background-image: url(images/last.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.shawdo{
+    box-shadow: 10px 12px 40px gray;
+    border-radius: 10px;
+}
+.last{
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+   
+    border-image-slice: 1;
+}
+#half{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
