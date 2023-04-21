@@ -54,6 +54,7 @@ p{
 .shawdo{
     box-shadow: 10px 12px 40px gray;
     border-radius: 10px;
+    background-color: white;
 }
 .last{
     background-image: url(images/logo.png);
@@ -70,4 +71,8 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
